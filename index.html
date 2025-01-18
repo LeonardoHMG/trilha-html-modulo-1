@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    </head>
+    <body>
+        <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+        <hr />
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#historia-computadores">História dos Computadores</a></li>
+            <li><a href="#surgimento-internet">Surgimento da Internet</a></li>
+            <li><a href="#clients">O que são Clients?</a></li>
+            <li><a href="#servers">O que são Servers?</a></li>
+            <li><a href="#estruturaBasica">Estrutura básica HTML e Tags</a></li>
+            <li><a href="#elementosHTML">Textos, Listas Ordenadas, Não Ordenadas e Links</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+
+        <h2 id="historia-computadores">História dos Computadores</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p><strong>A história dos computadores remonta ao século XIX, com a criação das primeiras máquinas que tentavam automatizar cálculos</strong>.</p>
+        <p><i>Charles Babbage</i> é considerado o "pai do computador" por ter projetado a Máquina Analítica, que possuía conceitos essenciais dos computadores modernos, como a unidade de controle e a memória. No entanto, foi apenas no século XX que os computadores se tornaram viáveis para uso geral.</p>
+        <p>O desenvolvimento de computadores eletrônicos começou na década de 1930 e 1940, com a invenção do <abbr title="(Electronic Numerical Integrator and Computer)">ENIAC</abbr> durante a Segunda Guerra Mundial, um dos primeiros computadores eletrônicos de grande escala.</p>
+        <p><mark>Ao longo das décadas seguintes, os computadores passaram por várias gerações de evolução, com avanços em transistores, circuitos integrados e, posteriormente, microprocessadores, que permitiram a miniaturização e a popularização da tecnologia.</mark></p>
+        <p>A partir dos anos 1970 e 1980, o uso de computadores se expandiu para empresas e, mais tarde, para os consumidores individuais, com a popularização de computadores pessoais, como o Apple II e o IBM PC.</p>
+
+        <h2 id="surgimento-internet">Surgimento da Internet</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A Internet teve seu surgimento na década de 1960, como uma rede de comunicação entre computadores em universidades e laboratórios de pesquisa. O projeto inicial, chamado ARPANET, foi financiado pela <abbr title="(Agência de Projetos de Pesquisa Avançada de Defesa dos Estados Unidos)">DARPA</abbr> e visava criar uma rede descentralizada para compartilhar informações e pesquisa científica.</p>
+        <p>Nos anos seguintes, a ARPANET evoluiu e, com o desenvolvimento de protocolos de comunicação, como o TCP/IP, ela se expandiu e se transformou na rede global que conhecemos hoje como a Internet.</p>
+        <p>O grande avanço que possibilitou a popularização da Internet foi a criação da World Wide Web (WWW) por Tim Berners-Lee, em 1991. A partir daí, os navegadores da web se tornaram ferramentas acessíveis para milhões de pessoas em todo o mundo, e a Internet passou a ser usada não só para a comunicação e pesquisa científica, mas também para fins comerciais, sociais e de entretenimento.</p>
+
+        <h2 id="clients">O que são Clients?</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p><mark>Em termos de redes e computação, "client" (ou "cliente") refere-se a qualquer dispositivo ou programa que acessa os serviços de um servidor em uma rede.</mark> O cliente solicita informações ou serviços do servidor e aguarda uma resposta. Por exemplo, em uma rede de computadores, o navegador de internet de um usuário é um cliente que acessa a web (servidor), solicitando páginas e dados.</p>
+        <p>Em sistemas distribuídos, como a web, os clientes podem ser computadores pessoais, dispositivos móveis, ou aplicativos específicos que utilizam a rede para se conectar a servidores e utilizar os recursos compartilhados.</p>
+
+        <h2 id="servers">O que são Servers?</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p><mark>Um "server" (ou "servidor") é um computador ou software que fornece serviços ou recursos a outros computadores (clientes) em uma rede.</mark> O servidor espera por solicitações de clientes e responde a elas, seja fornecendo dados, processando informações ou gerenciando tarefas. Por exemplo, em uma aplicação web, o servidor armazena páginas HTML, imagens e outros recursos, e envia esses conteúdos para os clientes (usuários que acessam o site).</p>
+        <p>Existem diferentes tipos de servidores, incluindo servidores de arquivos, servidores de banco de dados, servidores web e servidores de e-mail, cada um com uma função específica na rede.</p>
+
+        <h2 id="estruturaBasica">Estrutura básica HTML e Tags</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p><abbr title="(HyperText Markup Language)">HTML</abbr> é a linguagem padrão para criar páginas web. A estrutura básica de um documento HTML consiste em elementos que indicam como o conteúdo deve ser exibido em um navegador. A estrutura mínima de um documento HTML inclui:</p>
+        <ul>
+            <li><strong>&lt;!DOCTYPE html&gt;: Declaração do tipo de documento, que informa ao navegador que o arquivo é um documento HTML.</strong></li>
+            <li><strong>&lt;html&gt;: Elemento raiz do documento</strong>.</li>
+            <li><strong>&lt;head&gt;: Contém metadados sobre a página, como título, links para folhas de estilo, scripts, etc.</strong></li>
+            <li><strong>&lt;title&gt;: Define o título da página, que aparece na aba do navegador.</strong></li>
+            <li><strong>&lt;body&gt;: Contém o conteúdo visível da página, como texto, imagens, links, etc.</strong></li>
+            <li><strong>Dentro do &lt;body&gt;, é possível usar tags para estruturar o conteúdo, como parágrafos (&lt;p&gt;), títulos (&lt;h1&gt; até &lt;h6&gt;), listas (&lt;ol&gt;, &lt;ul&gt; e &lt;li&gt;), links (&lt;a&gt;), imagens (&lt;img&gt;), entre outros.</strong></li>
+        </ul>
+
+        <h3>O que são Tags:</h3>
+        <p><mark>No contexto do HTML, tags são elementos usados para marcar o conteúdo dentro de um documento web.</mark> Cada tag é envolvida por colchetes angulares &lt; e &gt;. As tags indicam ao navegador como o conteúdo deve ser interpretado e exibido. Existem tags de abertura e fechamento, como &lt;p&gt; para um parágrafo e &lt;/p&gt; para fechar o parágrafo.</p>
+        Existem também tags auto-fechantes, como &lt;img /&gt;, que não necessitam de uma tag de fechamento, porque o elemento é completo na própria tag de abertura.
+
+       <h3>Atributos das Tags:</h3>
+       <p><mark>Atributos em tags HTML são usados para fornecer informações adicionais ou configurar aspectos específicos de um elemento. Eles geralmente aparecem dentro da tag de abertura e possuem um nome e um valor.</mark> Por exemplo, o atributo href em uma tag &lt;a&gt; define o destino de um link, como no caso de &lt;a href="https://www.exemplo.com"&gt;Clique aqui&lt;/a&gt;. Outros exemplos de atributos incluem src (para especificar a origem de uma imagem), alt (para fornecer uma descrição alternativa para uma imagem) e class (para associar a um estilo CSS)</p>
+
+       <h2 id="elementosHTML">Textos, Listas Ordenadas, Não Ordenadas e Links</h2>
+       <small><a href="#inicio">(Voltar)</a></small>
+       <h3>Textos:</h3>
+       <p>No HTML, o texto pode ser formatado de várias maneiras usando tags específicas. Por exemplo:</p>
+       <ul>
+            <li><strong>&lt;p&gt;: Define um parágrafo.</strong></li>
+            <li><strong>&lt;h1&gt; a &lt;h6&gt;: São tags de títulos, sendo &lt;h1&gt; o título mais importante e &lt;h6&gt; o menos importante.</strong></li>
+            <li><strong>&lt;strong&gt;: Marca um texto como importante, geralmente exibido em negrito.</strong></li>
+            <li><strong>&lt;em&gt;: Marca um texto como enfatizado, geralmente exibido em itálico.</strong></li>
+            <li><strong>&lt;u&gt;: Marca um texto com sublinhado.</strong></li>
+       </ul>
+       
+       <h3>Listas Ordenadas e Não Ordenadas:</h3>
+       <p>As listas no HTML podem ser ordenadas ou não ordenadas:</p>
+       <ul>
+            <li><strong>Listas ordenadas (&lt;ol&gt;): São listas numeradas ou com uma ordem específica. Cada item da lista é definido com a tag &lt;li&gt; (list item).</strong></li>
+            <li><strong>Listas não ordenadas (&lt;ul&gt;): São listas sem uma ordem específica, geralmente apresentadas com marcadores (bolinhas). Também usam a tag &lt;li&gt; para definir cada item.</strong></li>
+       </ul>
+       <h3>Links:</h3>
+       <p><mark>Em HTML, os links são criados usando a tag &lt;a&gt; (ancora). Esta tag permite que os usuários naveguem entre diferentes páginas ou recursos ao clicar em um texto ou imagem. O atributo href é usado para especificar o endereço (URL) de destino do link.</mark></p>
+       <p>Exemplo de link:</p>
+       <a href="https://google.com">Google</a>
+
+       <h2 id="referencias">Referências</h2>
+       <ul>
+        <li><a href="https://dio.me" target="_blank">DIO.me</a></li>
+        <li><a href="https://www.w3.org/" target="_blank">W3C</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Referência MDN</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+    </ul>
+    </body>
+</html>
